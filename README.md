@@ -19,7 +19,7 @@ Install **Python 3.8 – 3.13** from the official site:
 [https://www.python.org/downloads/](https://www.python.org/downloads/)  
 During installation:
 - ✔ **Check “Add Python to PATH”**.
-- ✔ Let it install `pip` (it’s included by default in Python installers).
+- Let it install `pip` (it’s included by default in Python installers).
 
 To verify:
 ```bash
@@ -35,7 +35,7 @@ If you see Python and pip versions printed, you’re good to go.
 **Note:** The dataset is too large to include in this repository.  
 You need to download it manually before training.
 
-✅ **Source:** [PlantVillage Dataset on Kaggle](https://www.kaggle.com/datasets/emmarex/plantdisease)
+**Source:** [PlantVillage Dataset on Kaggle](https://www.kaggle.com/datasets/emmarex/plantdisease)
 
 **Steps to set up:**
 1. Go to the link above and download the dataset (`plantvillage.zip` or similar).
@@ -66,19 +66,6 @@ Each class (disease) is a subfolder inside `PlantVillage/`, containing its own i
 
 Open the folder in **VS Code**.
 
-(Optional but recommended) Create a virtual environment to keep dependencies isolated:
-
-```bash
-# Create venv
-python -m venv venv
-
-# Activate it
-# On Windows:
-venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
-```
-
 Install dependencies:
 
 ```bash
@@ -103,7 +90,7 @@ Run the training script:
 python train_pytorch.py
 ```
 
-✔ What it does:
+What it does:
 
 * Loads all images from `PlantVillage/`
 * Applies basic image transforms (resize to 128×128, convert to tensors)
@@ -143,7 +130,7 @@ Output:
 ✅ Predicted: Pepper__bell___Bacterial_spot (confidence 0.95)
 ```
 
-✔ What it does:
+What it does:
 
 * Loads the trained model
 * Preprocesses the image (resize, normalize)
