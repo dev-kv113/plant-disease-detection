@@ -135,22 +135,7 @@ What it does:
 
 ---
 
-## 5. Project Structure
-
-```
-plant-disease-detector/
-  PlantVillage/            # dataset
-  train_pytorch.py         # training script
-  predict_pytorch.py       # prediction script
-  requirements.txt
-  README.md
-  saved_model/
-    plant_disease_model.pth  # after training
-```
-
----
-
-## 6. Notes
+## 5. Notes
 
 * You can test with any image from `PlantVillage` to confirm predictions.
 * There is already a test.JPG in the files for you to try out using the above command.
@@ -160,7 +145,7 @@ plant-disease-detector/
 
 ---
 
-## 7. Commands Summary
+## 6. Commands Summary
 
 ```bash
 # Install dependencies
