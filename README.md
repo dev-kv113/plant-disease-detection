@@ -45,6 +45,7 @@ You need to download it manually before training.
 
 You should end up with a structure like this:
 
+```
 plant-disease-detector/       
 ├─ PlantVillage/
 │  ├─ Tomato___Early_blight/
@@ -54,6 +55,7 @@ plant-disease-detector/
 ├─ predict_pytorch.py
 ├─ requirements.txt
 └─ README.md
+```
 
 Each class (disease) is a subfolder inside `PlantVillage/`, containing its own images.
 
